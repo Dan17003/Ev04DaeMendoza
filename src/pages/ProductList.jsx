@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useProductsStore } from "../store/products-store";
+import { Link } from "react-router-dom";
 
 function ProductList() {
   const { products, loading, error, getProducts } = useProductsStore();
